@@ -29,7 +29,7 @@ class RecintosZoo {
             }
             if (typeof quantidade !== 'number' || quantidade < 1 || !Number.isInteger(quantidade)) {
                 return { erro: "Quantidade inválida" };
-            }y
+            }
         }
         function encontraRecintosViaveis() {
             recintos.forEach((recinto) => {
